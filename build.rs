@@ -3,7 +3,7 @@ use std::env;
 use std::path::PathBuf;
 use std::process::Command;
 
-const VERSION: &str = "2.15";
+const VERSION: &str = "2.16";
 
 fn main() {
     let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
