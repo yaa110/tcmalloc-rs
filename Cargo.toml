@@ -4,15 +4,15 @@ build = "build.rs"
 categories = ["memory-management", "api-bindings"]
 description = "Rust FFI bindings to tcmalloc"
 documentation = "https://docs.rs/tcmalloc2"
-edition = "2021"
+edition = "2024"
 homepage = "https://github.com/yaa110/tcmalloc-rs"
 keywords = ["tcmalloc", "allocator"]
 license = "MIT OR Apache-2.0"
 name = "tcmalloc2"
 readme = "README.md"
 repository = "https://github.com/yaa110/tcmalloc-rs"
-version = "0.2.1+2.16"
+version = "0.2.2+2.16"
 
 [build-dependencies]
-bindgen = "0.70"
+bindgen = "0.71"
 num_cpus = "1"
