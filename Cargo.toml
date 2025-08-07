@@ -11,8 +11,8 @@ license = "MIT OR Apache-2.0"
 name = "tcmalloc2"
 readme = "README.md"
 repository = "https://github.com/yaa110/tcmalloc-rs"
-version = "0.2.2+2.16"
+version = "0.3.0+2.17"
 
 [build-dependencies]
-bindgen = "0.71"
+bindgen = "0.72"
 num_cpus = "1"
